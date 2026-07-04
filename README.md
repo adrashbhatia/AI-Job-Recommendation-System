@@ -76,8 +76,9 @@ Then open your browser at: http://127.0.0.1:5000
 
 
 ---
-
 ## 📁 Project Structure
+
+```
 AI_Job_Recommendation/
 │
 ├── notebooks/
@@ -94,22 +95,25 @@ AI_Job_Recommendation/
 ---
 
 ## 🧠 How It Works
+
+```
 User Input (Skills / CV)
-↓
-NLP Skill Extraction
-↓
-TF-IDF Vectorizer
-↓
-┌─────┬──────────────┬─────┐
-KNN  Random Forest   ANN
-└─────┴──────────────┴─────┘
-↓
-Top 5 Job Recommendations
-with Match Percentage
+         ↓
+  NLP Skill Extraction
+         ↓
+   TF-IDF Vectorizer
+         ↓
+  ┌──────┬─────────────────┬──────┐
+  │ KNN  │  Random Forest  │ ANN  │
+  └──────┴─────────────────┴──────┘
+         ↓
+  Top 5 Job Recommendations
+     with Match Percentage
+```
 
 ---
 
 ## 👨‍💻 Author
 
-**Adarsh Bhatia**
+**Adarsh Bhatia**  
 Iqra University — AI Lab Final Project — June 2026
