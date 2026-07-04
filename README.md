@@ -91,7 +91,7 @@ AI_Job_Recommendation/
 │
 ├── app.py                    ← Flask backend + recommendation logic
 └── requirements.txt          ← All dependencies
-
+```
 ---
 
 ## 🧠 How It Works
